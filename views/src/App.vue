@@ -9,16 +9,16 @@
 </template>
 
 <script>
-  import Content from "./components/content";
   import Header from "./components/frame/header";
   import Footer from "./components/frame/footer";
   
+  import Content from './components/index.vue'
   export default {
     name: "app",
     components: {
-      Content,
       Header,
-      Footer
+      Footer,
+      Content
     }
   };
 </script>

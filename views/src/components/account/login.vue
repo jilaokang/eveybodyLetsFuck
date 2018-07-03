@@ -1,17 +1,17 @@
 <template>
   <div class="row">
-    <div class="col">
+    <div class="col-xs-12 col-md-5">
       <form>
         <div class="form-group">
-          <label for="exampleInputEmail1">英文名</label>
-          <input type="email" class="form-control" placeholder="英文名谁也不知道放心骂">
+          <label>英文名</label>
+          <input type="email" class="form-control">
         </div>
         <div class="form-group">
-          <label for="exampleInputPassword1">密码</label>
-          <input type="password" class="form-control" placeholder="请输入密码">
+          <label>密码</label>
+          <input type="password" class="form-control">
         </div>
         <div class="form-group">
-        <small id="emailHelp" class="form-text text-muted">* 您的账户将自动被注册 <br/> * 请保管好您的账号</small>
+          <font class="form-text text-muted">* 您的账户将自动注册，请您保管好密码</font>
         </div>
         <button type="submit" class="btn btn-primary">登陆</button>
       </form>
@@ -20,11 +20,12 @@
 </template>
 
 <script>
-export default {};
+  export default {};
 </script>
 
 <style scoped>
-.col{
-margin-top: 16px
-}
+  .col-xs-12,
+  .col-md-5 {
+    margin-top: 16px;
+  }
 </style>
