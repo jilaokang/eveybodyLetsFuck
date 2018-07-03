@@ -1,8 +1,8 @@
-  <img src="https://getcomposer.org/img/logo-composer-transparent2.png" width="25%" style="text-align:center"/>
-  <center>
+
+<center>
     <img src="https://getcomposer.org/img/logo-composer-transparent2.png" width="25%"/>
-  Let's fuck the bitch world!
-  </center>
+    <h2> Let's enjoy bitch world fully! </h2>
+</center>
 
 附赠电影
 
