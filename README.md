@@ -1,9 +1,9 @@
 <p align="center">
-  <a href="https://nodejs.org/">
+  <a href="#">
     <img
-      alt="Node.js"
+      alt="let's fuck the bitch world!"
       src="https://getcomposer.org/img/logo-composer-transparent2.png"
-      width="250"
+      width="220"
     />
   </a>
 </p>

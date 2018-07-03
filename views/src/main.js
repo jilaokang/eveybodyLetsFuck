@@ -1,11 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue'
-// import bootstrap from 'bootstrap'
 
-// Vue.use(bootstrap)
-
-
-Vue.config.productionTip = false
+// sb bootstrap四个引用全家桶
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap'
+import 'jquery'
+import 'popper.js'
 
 new Vue({
   render: h => h(App)
