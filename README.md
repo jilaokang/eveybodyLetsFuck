@@ -1,6 +1,8 @@
 
 <center>
     <img src="https://getcomposer.org/img/logo-composer-transparent2.png" width="25%"/>
+</center>
+<center>
     <h2> Let's enjoy bitch world fully! </h2>
 </center>
 
