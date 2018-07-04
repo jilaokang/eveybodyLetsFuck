@@ -18,9 +18,6 @@ const router = new VueRouter({
   routes:routers
 })
 
-console.log(routers)
-
-
 new Vue({
   router,
   render: h => h(App)
