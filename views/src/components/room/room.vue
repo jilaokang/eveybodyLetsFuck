@@ -15,6 +15,12 @@
                         </p>
                         <p>你妈谁呢？日你妈啦个币</p>
                     </div>
+    
+                    <div class="speakToHome">
+                        <router-link to="home">
+                            <span class="icon-iconindexnor iconfont"></span>
+                        </router-link>
+                    </div>
                 </div>
             </div>
         </div>
@@ -26,13 +32,13 @@
                 <button type="button" class="btn btn-warning" style="width:100%">喷他</button>
             </div>
         </div>
-        <h1>{{this.count}}</h1>
+        <!-- <h1>{{this.count}}</h1> -->
     </div>
 </template>
 
 <script>
-    // vuex使用示范 
-
+    // vuex使用示范
+    
     // export default {
     //     created() {
     //         this.$store.commit("increment");
@@ -59,8 +65,23 @@
     .speakContent .time {
         font-size: 0.4em;
     }
-    .btn-warning{
+    
+    .btn-warning {
         color: white;
-        font-weight: 800
+        font-weight: 800;
+    }
+    
+    .speakToHome {
+        position: absolute;
+        top: .8rem;
+        right: 2rem;
+    }
+    
+    .iconfont {
+        font-size: 2rem;
+    }
+    
+    a {
+        color: #495057!important;
     }
 </style>

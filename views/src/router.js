@@ -1,10 +1,10 @@
 import Content from './components/index.vue'
-import Login from './components/account/login.vue'
+import Login from './components/login/login.vue'
 import Index from './components/home/home.vue'
 import Room from './components/room/room.vue'
 import Create from './components/create/create.vue'
 
-import error404 from './components/error/404.vue'
+import error404 from './components/frame/404.vue'
 
 const routes = [{
     path: '/',

@@ -1,7 +1,7 @@
 <template>
     <div class="card text-center">
         <div class="card-header">
-            <a class="icon-github iconfont" href="https://github.com/jilaokang"></a>
+            <span class="icon-animal iconfont"></span>
         </div>
         <div class="card-body">
             <router-link to="create">

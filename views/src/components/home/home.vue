@@ -14,8 +14,8 @@
 </template>
 
 <script>
-    import roomadd from "../card/roomadd.vue";
-    import roomone from '../card/roomone.vue'
+    import roomadd from "./roomadd.vue";
+    import roomone from './roomone.vue'
     
     export default {
         components: {
