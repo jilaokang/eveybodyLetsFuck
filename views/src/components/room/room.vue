@@ -1,0 +1,46 @@
+<template>
+    <div>
+        <div class="row">
+            <div class="col-12">
+                <div class="speakCenter">
+                    <div class="speakContent">
+                        <p>user
+                            <font class="time">10:30</font>
+                        </p>
+                        <p>你麻痹</p>
+                    </div>
+                    <div class="speakContent">
+                        <p>fucker
+                            <font class="time">10:30</font>
+                        </p>
+                        <p>你妈谁呢？日你妈啦个币</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-9">
+                <textarea class="form-control" rows="1"></textarea>
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-warning" style="width:100%">喷他</button>
+            </div>
+        </div>
+    </div>
+</template>
+
+<style scoped>
+    .speakCenter {
+        padding: 1em;
+        color: #495057;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        height: 60vh;
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+    
+    .speakContent .time {
+        font-size: .4em;
+    }
+</style>
