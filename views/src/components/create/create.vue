@@ -13,7 +13,9 @@
                 <div class="form-group">
                     <font class="form-text text-muted">* 房间将自动被创建，请至首页进入。</font>
                 </div>
-                <button type="submit" class="btn btn-outline-secondary">创建</button>
+                <router-link to="home">
+                    <button type="submit" class="btn btn-outline-secondary">创建</button>
+                </router-link>
             </form>
         </div>
     </div>

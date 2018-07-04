@@ -26,21 +26,41 @@
                 <button type="button" class="btn btn-warning" style="width:100%">喷他</button>
             </div>
         </div>
+        <h1>{{this.count}}</h1>
     </div>
 </template>
+
+<script>
+    // vuex使用示范 
+
+    // export default {
+    //     created() {
+    //         this.$store.commit("increment");
+    //     },
+    //     computed: {
+    //         count() {
+    //             return this.$store.state.count;
+    //         }
+    //     }
+    // };
+</script>
 
 <style scoped>
     .speakCenter {
         padding: 1em;
         color: #495057;
         border: 1px solid #ced4da;
-        border-radius: .25rem;
+        border-radius: 0.25rem;
         height: 60vh;
         overflow: scroll;
         overflow-x: hidden;
     }
     
     .speakContent .time {
-        font-size: .4em;
+        font-size: 0.4em;
+    }
+    .btn-warning{
+        color: white;
+        font-weight: 800
     }
 </style>

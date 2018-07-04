@@ -6,7 +6,9 @@
         <div class="card-body">
             <h5 class="card-title">傻逼学校</h5>
             <p class="card-text">傻逼学校教的傻逼学生和傻逼老师。</p>
-            <a href="room" class="btn btn-primary">进入群聊</a>
+            <router-link to="room">
+                <a href="" class="btn btn-primary">进入群聊</a>
+            </router-link>
         </div>
         <div class="card-footer text-muted">
             23人

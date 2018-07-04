@@ -1,24 +1,29 @@
 import Vue from 'vue'
+import Vuex from 'vuex'
+import VueRouter from 'vue-router'
 import App from './App.vue'
+import Routers from './router'
+import Store from './store/main'
 
-// sb bootstrap四个引用全家桶
+// Bootstrap四个引用全家桶
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap'
 import 'jquery'
 import 'popper.js'
 
-// 配置vue-router
-import VueRouter from 'vue-router'
+Vue.use(Vuex)
 Vue.use(VueRouter)
 
-import routers from './router'
 
 const router = new VueRouter({
   mode: 'history',
-  routes:routers
+  routes: Routers
 })
 
+const store = new Vuex.Store(Store)
+
 new Vue({
+  store,
   router,
   render: h => h(App)
 }).$mount('#app')

@@ -8,10 +8,13 @@
     </div>
 </template>
 
-
 <style scoped>
 .col {
   text-align: center;
+}
+
+.row{
+    margin-bottom: 3rem;
 }
 
 a {
