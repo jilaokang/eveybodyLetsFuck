@@ -1,0 +1,26 @@
+{
+  "name": "eveybodyletsfuck",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <a href=\"#\">     <img       src=\"https://getcomposer.org/img/logo-composer-transparent2.png\"       width=\"220\"     />   </a> </p> <h2 align=\"center\">  Enjoy bitch World </h2>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "supervisor index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jilaokang/eveybodyLetsFuck.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jilaokang/eveybodyLetsFuck/issues"
+  },
+  "homepage": "https://github.com/jilaokang/eveybodyLetsFuck#readme",
+  "dependencies": {
+    "koa": "^2.5.1",
+    "koa-body": "^4.0.4",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0"
+  }
+}
