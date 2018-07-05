@@ -5,13 +5,13 @@
                 <div class="speakCenter">
                     <div class="speakContent">
                         <p>user
-                            <font class="time">10:30</font>
+                            <span class="time">10:30</span>
                         </p>
                         <p>你麻痹</p>
                     </div>
                     <div class="speakContent">
                         <p>fucker
-                            <font class="time">10:30</font>
+                            <span class="time">10:30</span>
                         </p>
                         <p>你妈谁呢？日你妈啦个币</p>
                     </div>
