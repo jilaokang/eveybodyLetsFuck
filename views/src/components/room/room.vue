@@ -7,13 +7,13 @@
                         <p>user
                             <span class="time">10:30</span>
                         </p>
-                        <p>你麻痹</p>
+                        <p>聊天天</p>
                     </div>
                     <div class="speakContent">
                         <p>fucker
                             <span class="time">10:30</span>
                         </p>
-                        <p>你妈谁呢？日你妈啦个币</p>
+                        <p>开开心心</p>
                     </div>
     
                     <div class="speakToHome">
@@ -29,7 +29,7 @@
                 <textarea class="form-control" rows="1"></textarea>
             </div>
             <div class="col-3">
-                <button type="button" class="btn btn-warning" style="width:100%">喷他</button>
+                <button type="button" class="btn btn-warning" style="width:100%">发送</button>
             </div>
         </div>
         <!-- <h1>{{this.count}}</h1> -->
@@ -37,6 +37,7 @@
 </template>
 
 <script>
+export default{}
     // vuex使用示范
     
     // export default {

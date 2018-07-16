@@ -14,13 +14,14 @@
 </template>
 
 <script>
-    import roomadd from "./roomadd.vue";
-    import roomone from './roomone.vue'
-    
-    export default {
-        components: {
-           roomadd,roomone
-        }
-    };
+import roomadd from "./roomadd.vue";
+import roomone from "./roomone.vue";
+
+export default {
+  components: {
+    roomadd,
+    roomone
+  }
+};
 </script>
 

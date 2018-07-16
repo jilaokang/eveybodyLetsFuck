@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "supervisor index.js"
+    "start": "tsc --watch;supervisor dist/index.js",
+    "dev": "supervisor ./dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,9 +19,17 @@
   },
   "homepage": "https://github.com/jilaokang/eveybodyLetsFuck#readme",
   "dependencies": {
+    "@types/koa": "^2.0.46",
+    "@types/koa-router": "^7.0.30",
+    "@types/koa-static": "^4.0.0",
+    "@types/mongoose": "^5.2.0",
+    "bootstrap": "^4.1.2",
     "koa": "^2.5.1",
     "koa-body": "^4.0.4",
     "koa-router": "^7.4.0",
-    "koa-static": "^5.0.0"
+    "koa-static": "^5.0.0",
+    "koa.io": "0.0.3",
+    "socket.io": "^2.1.1",
+    "typings": "^2.1.1"
   }
 }
