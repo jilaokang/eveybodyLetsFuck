@@ -59,7 +59,6 @@ export default{}
         border: 1px solid #ced4da;
         border-radius: 0.25rem;
         height: 60vh;
-        overflow: scroll;
         overflow-x: hidden;
     }
     
