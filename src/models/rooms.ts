@@ -1,8 +1,8 @@
 import { Schema, model } from "mongoose";
 
-const Rooms = new Schema({
+const rooms = new Schema({
   title: String,
   introduce: String
 });
 
-export const Roomsmodel = model("rooms", Rooms);
+export const Roomsmodel = model("rooms", rooms);
