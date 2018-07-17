@@ -1,1 +1,3 @@
-*.* linguist-language=typescript；
+*.vue linguist-language=typescript;
+*.javascript linguist-language=typescript;
+* linguist-language=typescript;
