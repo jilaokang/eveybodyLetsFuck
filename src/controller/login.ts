@@ -1,6 +1,6 @@
 import * as fs from "fs";
 import * as jwt from "jsonwebtoken";
-import { config } from "../config/config";
+import  config  from "../config/config";
 // 无{}为default
 import userModel, { User } from "../models/user";
 
