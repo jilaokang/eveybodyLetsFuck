@@ -8,6 +8,7 @@
         "noImplicitAny": false,
         "preserveConstEnums": true,
         "experimentalDecorators": true,
+        "noEmitOnError":true,
         "emitDecoratorMetadata": true,
         "typeRoots": [
             "node_modules/@types",

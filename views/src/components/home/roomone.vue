@@ -4,15 +4,20 @@
             <span class="icon-dongwu iconfont"></span>
         </div>
         <div class="card-body">
-            <h5 class="card-title">唯一总群</h5>
-            <p class="card-text">小型聊天交友月泡室。</p>
+            <h5 class="card-title">{{data.title}}</h5>
+            <p class="card-text">{{data.content}}</p>
             <router-link to="room">
                 <a href="" class="btn btn-primary">进入群聊</a>
             </router-link>
         </div>
         <div class="card-footer text-muted">
-            23人
+            {{data.people}}人
         </div>
     </div>
 </template>
 
+<script>
+export default {
+  props: ["data"]
+};
+</script>

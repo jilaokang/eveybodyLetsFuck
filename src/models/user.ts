@@ -1,9 +1,12 @@
-// import * as mongoose from "mongoose";
-import { Schema, model } from "mongoose";
+import { Schema, model, Document } from "mongoose";
+export interface User extends Document {
+  username: String;
+  password: String;
+}
 
 const user = new Schema({
   username: String,
   password: String
 });
 
-export const userModel = model("user", user);
+export default model("user", user);

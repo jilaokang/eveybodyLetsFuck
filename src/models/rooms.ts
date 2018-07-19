@@ -1,8 +1,17 @@
-import { Schema, model } from "mongoose";
+import { Schema, model, Document } from "mongoose";
 
 const rooms = new Schema({
-  title: String,
-  introduce: String
+  roomname: String,
+  roomintroduce: String,
+  people: Number,
+  user: String
 });
 
-export const Roomsmodel = model("rooms", rooms);
+export default model("rooms", rooms);
+
+export interface Rooms extends Document {
+  roomname: String;
+  roomintroduce: String;
+  people: Number;
+  user: String;
+}
